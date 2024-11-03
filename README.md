@@ -7,6 +7,9 @@
 Provides a standalone [Apache Parquet](https://parquet.apache.org/) [CLI JAR](https://github.com/apache/parquet-java/tree/master/parquet-cli) by including [required Hadoop dependencies](https://github.com/apache/parquet-java/tree/master/parquet-cli#running),  
 for simple distribution and usage.
 
+The versioning aligns with [Parquet releases](https://github.com/apache/parquet-java/releases).  
+For example, `parquet-cli-standalone-1.14.3-preview-1-shaded.jar` would be based on [Parquet 1.14.3](https://github.com/apache/parquet-java/releases/tag/apache-parquet-1.14.3).
+
 ## Usage
 
 See the [Apache Parquet CLI documentation](https://github.com/apache/parquet-java/tree/master/parquet-cli#help) for details on the CLI arguments.
