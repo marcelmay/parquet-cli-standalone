@@ -7,7 +7,7 @@
     <groupId>de.m3y.parquet</groupId>
     <artifactId>parquet-cli-standalone</artifactId>
     <packaging>jar</packaging>
-    <version>1.14.3-preview-1</version>
+    <version>1.14.4</version>
 
     <name>Parquet CLI standalone</name>
     <description>Provides a standalone cli for Parquet artifact</description>
