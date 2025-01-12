@@ -8,7 +8,7 @@ Provides a standalone [Apache Parquet](https://parquet.apache.org/) [CLI JAR](ht
 for simple distribution and usage.
 
 The versioning aligns with [Parquet releases](https://github.com/apache/parquet-java/releases).  
-For example, `parquet-cli-standalone-1.14.4-shaded.jar` would be based on [Parquet 1.14.4](https://github.com/apache/parquet-java/releases/tag/apache-parquet-1.14.4).
+For example, `parquet-cli-standalone-1.15.0-shaded.jar` would be based on [Parquet 1.15.0](https://github.com/apache/parquet-java/releases/tag/apache-parquet-1.15.0).
 
 ## Usage
 
