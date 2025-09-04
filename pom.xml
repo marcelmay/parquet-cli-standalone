@@ -315,8 +315,8 @@
     <profiles>
         <profile>
             <!--
-              Release profile, activating ossrh specific release settings.
-              See http://central.sonatype.org/pages/apache-maven.html
+              Release profile, activating specific release settings.
+              See https://central.sonatype.org/publish/publish-portal-maven/
             -->
             <id>release</id>
             <distributionManagement>
@@ -332,14 +332,12 @@
             <build>
                 <plugins>
                     <plugin>
-                        <groupId>org.sonatype.plugins</groupId>
-                        <artifactId>nexus-staging-maven-plugin</artifactId>
-                        <version>1.7.0</version>
+                        <groupId>org.sonatype.central</groupId>
+                        <artifactId>central-publishing-maven-plugin</artifactId>
+                        <version>0.8.0</version>
                         <extensions>true</extensions>
                         <configuration>
-                            <serverId>ossrh</serverId>
-                            <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-                            <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                            <publishingServerId>central</publishingServerId>
                         </configuration>
                     </plugin>
                     <plugin>
