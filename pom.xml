@@ -345,7 +345,7 @@
                     </plugin>
                     <plugin> <!-- Required artifact by Sonatype upload, even when empty -->
                         <artifactId>maven-source-plugin</artifactId>
-                        <version>3.3.1</version>
+                        <version>3.4.0</version>
                         <configuration>
                             <forceCreation>true</forceCreation>
                         </configuration>
