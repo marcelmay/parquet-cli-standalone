@@ -10,6 +10,9 @@ for simple distribution and usage.
 The versioning aligns with [Parquet releases](https://github.com/apache/parquet-java/releases).  
 For example, `parquet-cli-standalone-1.15.0-shaded.jar` would be based on [Parquet 1.15.0](https://github.com/apache/parquet-java/releases/tag/apache-parquet-1.15.0).
 
+## Requirements
+* Java 17+
+
 ## Usage
 
 See the [Apache Parquet CLI documentation](https://github.com/apache/parquet-java/tree/master/parquet-cli#help) for details on the CLI arguments.
